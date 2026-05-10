@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Sacramento&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-handwriting: "Sacramento", cursive;
+  
+  --color-gold: #fbbf24; /* amber-400 */
+  --color-warm-pink: #ec4899; /* pink-500 */
+  --color-soft-purple: #a855f7; /* purple-500 */
+  --color-cream: #fdfcf8;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-white antialiased selection:bg-gold/30;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.glass-premium {
+  @apply bg-gradient-to-br from-white/10 to-transparent backdrop-blur-2xl border border-white/10;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60;
+}
+
+.text-gold-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-gold via-warm-pink to-soft-purple;
+}
+
+.mask-fade-out {
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
