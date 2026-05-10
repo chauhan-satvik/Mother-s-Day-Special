@@ -14,7 +14,7 @@ export const AboutSection = () => {
         >
           <div className="aspect-[4/5] overflow-hidden rounded-[40px] border border-white/10 glass shadow-2xl relative group">
             <img 
-               src="https://images.unsplash.com/photo-1544123232-21937fbc56d2?q=80&w=1000&auto=format&fit=crop" 
+               src="/images/hero.jpg" 
                alt="Hetal Chauhan Inspiration" 
                className="w-full h-full object-cover brightness-75 group-hover:scale-105 transition-transform duration-1000"
             />
