@@ -67,7 +67,7 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="text-5xl md:text-8xl font-serif italic leading-tight mb-6 text-gradient"
         >
-          Hetal Chauhan
+          Hetal
         </motion.h1>
 
         <motion.p

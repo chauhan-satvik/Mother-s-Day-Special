@@ -91,7 +91,7 @@ export const FinalTribute = () => {
       </div>
 
       <footer className="absolute bottom-10 left-0 right-0 px-10 border-t border-white/10 pt-10 flex flex-col md:flex-row justify-between items-center gap-6 z-10">
-        <div className="text-[10px] font-medium tracking-[0.2em] opacity-40 uppercase">Made with love by her proud child</div>
+        <div className="text-[10px] font-medium tracking-[0.2em] opacity-40 uppercase">Made with love</div>
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
